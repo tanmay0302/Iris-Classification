@@ -70,7 +70,7 @@ pandas
 numpy
 scikit-learn
 joblib
-```
+
 import streamlit as st
 import joblib
 import numpy as np
@@ -91,5 +91,19 @@ if st.button("Predict"):
     input_data = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
     prediction = model.predict(input_data)
     st.success(f"🌼 Predicted Iris Species: **{prediction[0]}**")
+```
+🚀 Live Demo
+```
+🔗 Try the Iris Classifier App Here:
+https://iris-classification-a2tkewvsost4p8jxkutuxc.streamlit.app
+
+This app allows you to:
+
+📤 Upload your own Iris dataset
+
+🔄 Retrain the model instantly using K-Nearest Neighbors
+
+🌼 Predict the Iris species in real time with an intuitive interface
+
 
 
