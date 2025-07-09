@@ -58,21 +58,18 @@ Accuracy: ~96% on test data
 📦 Requirements
 ```
 Python 3.7+
-
 pandas
-
 numpy
-
 matplotlib
-
 seaborn
-
 scikit-learn
-
 streamlit
-
 joblib
-
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
 ```
 import streamlit as st
 import joblib
