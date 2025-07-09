@@ -43,7 +43,7 @@ pip install pandas numpy seaborn matplotlib scikit-learn streamlit joblib
 ```
 🌐 4. Run the Web App
 ```
-streamlit run app.py
+app.py
 ```
 🧠 Model Details
 ```
