@@ -35,16 +35,18 @@ git clone https://github.com/your-username/iris-flower-classification.git
 cd iris-flower-classification
 ```
 📦 2. Install Dependencies
+```
 pip install -r requirements.txt
 
 Or manually:
 pip install pandas numpy seaborn matplotlib scikit-learn streamlit joblib
-
+```
 🌐 4. Run the Web App
+```
 streamlit run app.py
-
+```
 🧠 Model Details
-
+```
 Algorithm: K-Nearest Neighbors (KNN)
 
 Hyperparameter Tuning: GridSearchCV
@@ -52,8 +54,9 @@ Hyperparameter Tuning: GridSearchCV
 Scaler: StandardScaler
 
 Accuracy: ~96% on test data
-
+```
 📦 Requirements
+```
 Python 3.7+
 
 pandas
