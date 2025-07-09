@@ -70,7 +70,7 @@ pandas
 numpy
 scikit-learn
 joblib
-
+```
 import streamlit as st
 import joblib
 import numpy as np
@@ -92,6 +92,7 @@ if st.button("Predict"):
     prediction = model.predict(input_data)
     st.success(f"🌼 Predicted Iris Species: **{prediction[0]}**")
 ```
+```
 🚀 Live Demo
 
 🔗 Try the Iris Classifier App Here:
@@ -105,5 +106,19 @@ This app allows you to:
 
 🌼 Predict the Iris species in real time with an intuitive interface
 
+🧠 Skills Demonstrated
+```
+End-to-End Machine Learning Pipeline
 
+Exploratory Data Analysis (EDA)
+
+Feature Engineering & Scaling
+
+Model Training & Tuning with GridSearchCV
+
+Model Evaluation (Confusion Matrix, Accuracy, Precision, Recall)
+
+Interactive Web App Deployment using Streamlit
+
+GitHub Project Structuring & Documentation
 
